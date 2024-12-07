@@ -1,0 +1,12 @@
+Download Dataset From:
+
+https://www.kaggle.com/datasets/saurav9786/amazon-product-reviews?select=ratings_Electronics+%281%29.csv
+
+(or)
+
+#use this python code
+
+import kagglehub
+# Download latest version
+path = kagglehub.dataset_download("saurav9786/amazon-product-reviews")
+print("Path to dataset files:", path)
